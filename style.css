@@ -9,7 +9,8 @@ a:visited {
 }
 
 a:hover {
-    color: blue;
+    color: #4683db;
+    cursor: crosshair;
 }
 
 a:active {
@@ -20,7 +21,8 @@ a:active {
 /* TOP NAV */
 
 .logo {
-  position: absolute;
+  position: fixed;
+  display: none;
   width: 100px;
   margin-top: 30px;
   margin-left: 25px;
@@ -28,17 +30,63 @@ a:active {
 }
 
 .downlink {
-  position: absolute;
-  font-size: 25px;
+  position: fixed;
+  text-decoration: none;
+  font-size: 30px;
   font-weight: bolder;
-  top: 140px;
+  top: 50px;
   left: 35px;
+  z-index: 999;
+}
+
+.insta {
+  position: fixed;
+  float: right;
+  width: 20px;
+  top: 30px;
+  right: 25px;
+  z-index: 999;
+  cursor: alias;
+}
+
+/* BOTTOM NAV */
+
+.email {
+  position: fixed;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: serif;
+  bottom: 50px;
+  left: 35px;
+  z-index: 999;
+}
+
+.uplink {
+  position: fixed;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  bottom: 50px;
+  right: 35px;
+  z-index: 999;
 }
 
 
 /* IMAGES */
 
-.mn_pin {
+.full_image {
+  position: absolute;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*.mn_pin {
   position: absolute;
   margin: auto;
   width: 50%;
@@ -102,6 +150,6 @@ a:active {
   width: 50%;
   top: 75%;
   z-index: 994;
-}
+}*/
 
 /* LOGOS */
