@@ -54,7 +54,7 @@ a:active {
   position: absolute;
   margin: auto;
   width: 50%;
-  top: 500px;
+  top: 50vh;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 995;
@@ -64,7 +64,7 @@ a:active {
   position: absolute;
   margin-right: 35%;
   width: 25%;
-  top: 1100px;
+  top: 100vh;
   left: 30%;
   transform: translate(-50%, -50%);
   z-index: 999;
@@ -74,7 +74,7 @@ a:active {
   position: absolute;
   margin: auto;
   width: 40%;
-  top: 1650px;
+  top: 150vh;
   left: 30%;
   transform: translate(-50%, -50%);
   z-index: 996;
@@ -84,7 +84,7 @@ a:active {
   position: absolute;
   margin: auto;
   width: 40%;
-  top: 1150px;
+  top: 110vh;
   left: 70%;
   transform: translate(-50%, -50%);
   z-index: 998;
@@ -94,7 +94,7 @@ a:active {
   position: absolute;
   margin: auto;
   width: 30%;
-  top: 2000px;
+  top: 180vh;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
