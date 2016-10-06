@@ -87,6 +87,8 @@ a:active {
   transform: translateX(-50%);
 }
 
+/*I couldn't figure out how to properly make the individual image positioning vertically responsive, so I went on with a single img file.*/
+
 /*.mn_pin {
   position: absolute;
   margin: auto;
@@ -152,5 +154,3 @@ a:active {
   top: 75%;
   z-index: 994;
 }*/
-
-/* LOGOS */
