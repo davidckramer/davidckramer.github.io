@@ -22,8 +22,8 @@ a:active {
 .logo {
   position: absolute;
   width: 100px;
-  top: 30px;
-  left: 25px;
+  margin-top: 30px;
+  margin-left: 25px;
   z-index: 999;
 }
 
@@ -38,59 +38,58 @@ a:active {
 
 /* IMAGES */
 
-.container {
+/*.container {
   position: absolute;
-  width: 1000px;
-  height: 1600px;
+  max-width: 1315px;
+  max-height: 1950px;
   margin-top: 50px;
   margin-right: auto;
   margin-bottom: 50px;
   margin-left: auto;
+  align-self: center;
   padding: 0px;
-}
+}*/
 
 .mn_pin {
   position: absolute;
   margin: auto;
-  width: 80%;
-  top: 100px;
+  width: 50%;
+  top: 500px;
   left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 995;
 }
 
 .blur_image {
   position: absolute;
-  margin: auto;
-  width: 35%;
-  top: 50%;
-  left: 45%;
-  z-index: 997;
+  margin-right: 35%;
+  width: 25%;
+  top: 500px;
+  left: 25%;
+  z-index: 9;
 }
 
 .slinky {
   position: absolute;
   margin: auto;
-  width: 60%;
+  width: 50%;
   top: 70%;
-  left: 33%;
   z-index: 996;
 }
 
 .collage {
   position: absolute;
   margin: auto;
-  width: 75%;
+  width: 50%;
   top: 40%;
-  left: 90%;
   z-index: 998;
 }
 
 .sphere {
   position: absolute;
   margin: auto;
-  width: 45%;
+  width: 50%;
   top: 95%;
-  left: 70%;
   z-index: 999;
 }
 
@@ -99,16 +98,14 @@ a:active {
   margin: auto;
   width: 50%;
   top: 100%;
-  left: 90%;
   z-index: 994;
 }
 
 .speaker_render {
   position: absolute;
   margin: auto;
-  width: 40%;
+  width: 50%;
   top: 75%;
-  left: 40%;
   z-index: 994;
 }
 
