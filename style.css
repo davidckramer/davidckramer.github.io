@@ -1,26 +1,24 @@
 /* LINKS */
-/* unvisited link */
+
 a:link {
     color: black;
 }
 
-/* visited link */
 a:visited {
     color: black;
 }
 
-/* mouse over link */
 a:hover {
     color: blue;
 }
 
-/* selected link */
 a:active {
     color: black;
 }
 
 
 /* TOP NAV */
+
 .logo {
   position: absolute;
   width: 100px;
@@ -39,61 +37,79 @@ a:active {
 
 
 /* IMAGES */
+
 .container {
   position: absolute;
   width: 1000px;
-  height: 1500px;
+  height: 1600px;
   margin-top: 50px;
   margin-right: auto;
   margin-bottom: 50px;
   margin-left: auto;
   padding: 0px;
 }
+
 .mn_pin {
   position: absolute;
   margin: auto;
-  width: 50%;
+  width: 80%;
   top: 100px;
   left: 50%;
   z-index: 995;
 }
+
 .blur_image {
   position: absolute;
   margin: auto;
-  width: 25%;
-  top: 30%;
-  left: 35%;
+  width: 35%;
+  top: 50%;
+  left: 45%;
   z-index: 997;
 }
+
 .slinky {
   position: absolute;
   margin: auto;
-  width: 50%;
-  top: 45%;
-  left: 22%;
+  width: 60%;
+  top: 70%;
+  left: 33%;
   z-index: 996;
 }
+
 .collage {
   position: absolute;
   margin: auto;
-  width: 50%;
-  top: 25%;
-  left: 70%;
+  width: 75%;
+  top: 40%;
+  left: 90%;
   z-index: 998;
 }
+
 .sphere {
   position: absolute;
   margin: auto;
-  width: 35%;
-  top: 60%;
-  left: 50%;
+  width: 45%;
+  top: 95%;
+  left: 70%;
   z-index: 999;
 }
+
 .water {
   position: absolute;
   margin: auto;
-  width: 30%;
-  top: 67%;
-  left: 80%;
+  width: 50%;
+  top: 100%;
+  left: 90%;
   z-index: 994;
 }
+
+.speaker_render {
+  position: absolute;
+  margin: auto;
+  width: 40%;
+  top: 75%;
+  left: 40%;
+  z-index: 994;
+}
+
+/* LOGOS */
