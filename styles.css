@@ -40,12 +40,19 @@ p {
   line-height: 17px;
 }
 
+h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+
+font-weight: normal;
+
+}
+
 h1 {
   font-family: 'Inknut Antiqua', Georgia, serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 35px;
   margin-bottom: 15px;
+  text-shadow: 0 0 0;
 }
 
 h2 {
