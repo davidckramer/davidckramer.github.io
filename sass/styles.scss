@@ -11,6 +11,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+$mid-grey: #808284;
+$light-grey: blue;
+
 body {
   line-height: 1;
   min-width: 850px;
@@ -31,7 +34,7 @@ a {
 }
 
 a:hover{
-  color: #808284;
+  color: $mid-grey;
 }
 
 p {
@@ -145,7 +148,7 @@ hr {
 }
 
 .nav_items:hover{
-  color: #808284;
+  color: $mid-grey;
 }
 
   /* NAVIGATION MEDIA QUERIES */
@@ -195,7 +198,7 @@ hr {
   box-sizing: border-box;
   border: 15px solid white;
   overflow: scroll;
-  background-color: #f1f1f2;
+  background-color: $light-grey;
   background-size: cover;
   position: fixed;
   float: right;
@@ -252,7 +255,7 @@ hr {
   #about {
   width: 100%;
   margin-top: 180px;
-  margin-bottom: 215px;
+  margin-bottom: 315px;
   z-index: 990;
   float: left;
   left: 0;
