@@ -4,10 +4,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.thumb {
-  width: 33.33% auto;
-  float: left; }
-
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -25,6 +21,15 @@ body {
 
 html, body {
   min-width: 850px; }
+
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: block; }
 
 a {
   color: black;
@@ -80,34 +85,42 @@ hr {
   float: left;
   z-index: 990; }
   .thumb_items li {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 33.33333%;
     display: block;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     /*border: 1px dotted #f00;*/
     position: relative;
-    width: 33.33%;
     float: left;
-    color: #fff;
-    font-size: 75%;
     /*overflow: hidden;*/ }
+    .thumb_items li:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 1435px) {
+      .thumb_items li {
+        float: left;
+        display: block;
+        margin-right: 0%;
+        width: 50%; }
+        .thumb_items li:last-child {
+          margin-right: 0; } }
+    @media screen and (max-width: 850px) {
+      .thumb_items li {
+        float: left;
+        display: block;
+        margin-right: 0%;
+        width: 100%; }
+        .thumb_items li:last-child {
+          margin-right: 0; } }
   .thumb_items a img {
     width: 100%;
     height: auto;
     display: block;
     z-index: 15; }
 
-/*.thumb {
-  float: left;
-  width: 33.33%;
-  height: 33.33%;
-  display: flex;
-  overflow: hidden;
-  img{
-    align-items: center;
-    size: 100%;
-  }
-}*/
 /* NAVIGATION */
 /* PARENT */
 #nav_column {

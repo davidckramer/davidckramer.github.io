@@ -1,0 +1,14 @@
+@import "neat/neat-helpers.scss";
+
+//GRID SETTINGS
+
+$column: 16.66% !default;
+
+$gutter: 0em;
+$grid-columns: 6;
+$max-width: 100%;
+
+// Define your breakpoints
+$desktop: new-breakpoint(max-width 1700px 6);
+$tablet: new-breakpoint(max-width 1435px 6);
+$mobile: new-breakpoint(max-width 850px 6);
