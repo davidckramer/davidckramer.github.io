@@ -72,15 +72,17 @@ ul {
   background-size: cover;
   position: fixed;
   float: left;
+  display: inline-block;
   z-index: 990; }
   .thumb_items li {
     float: left;
     display: block;
     margin-right: 0%;
     width: 33.33333%;
-    display: block;
+    display: inline-block;
     box-sizing: border-box;
-    margin: 0;
+    margin: -1px;
+    white-space: nowrap;
     padding: 0;
     /*border: 1px dotted #f00;*/
     position: relative;
@@ -131,11 +133,8 @@ ul {
     margin-right: 0; }
 
 #nav_home {
-  float: left;
-  display: block;
-  margin-right: 0%;
-  width: 33.33333%;
-  height: 100%;
+  width: 100px;
+  height: 100px;
   margin-top: 15px;
   margin-left: 15px;
   overflow: hidden;
@@ -145,8 +144,6 @@ ul {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center; }
-  #nav_home:last-child {
-    margin-right: 0; }
 
 /* CHILDREN */
 .nav_content {

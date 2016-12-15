@@ -93,6 +93,7 @@ ul {
   background-size: cover;
   position: fixed;
   float: left;
+  display: inline-block;
   z-index: 990;
 
   li{
@@ -104,9 +105,10 @@ ul {
   @include media($mobile){
     @include span-columns(6);
   }
-  display: block;
+  display: inline-block;
   box-sizing: border-box;
-  margin: 0;
+  margin: -1px;
+  white-space: nowrap;
   padding: 0;
   /*border: 1px dotted #f00;*/
   position: relative;
@@ -137,8 +139,8 @@ ul {
 }
 
 #nav_home {
-  @include span-columns (2);
-  height: 100%;
+  width:100px;
+  height: 100px;
   margin-top: 15px;
   margin-left: 15px;
   overflow: hidden;
