@@ -120,6 +120,16 @@ ul {
   height: auto;
   display: block;
   z-index: 15; }
+
+  a img:hover {
+  background-color: white;
+  opacity: 0.25;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
 }
 
 /* NAVIGATION */
