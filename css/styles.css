@@ -58,10 +58,18 @@ h2 {
   line-height: 25px;
   margin-bottom: 20px; }
 
+h3 {
+  font-family: 'Inknut Antiqua', Georgia, serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 5px; }
+
 ul {
   list-style: none; }
 
-/* INDEX PROJECT THUMBNAILS */
+/* INDEX PAGE */
+/* Thumbnail Styles*/
 .thumb_items {
   width: 100%;
   height: 100%;
@@ -74,8 +82,9 @@ ul {
   float: left;
   display: inline-block;
   z-index: 990;
-  /* responsive project grid */
-  /* image rollover state */ }
+  /* grid responsiveness */
+  /* image rollover state*/
+  /* image rollover state (caption)*/ }
   .thumb_items li {
     float: left;
     display: block;
@@ -109,9 +118,31 @@ ul {
     height: auto;
     display: block;
     z-index: 15; }
+  .thumb_items figure {
+    overflow: hidden; }
+  .thumb_items .hover figure img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); }
+  .thumb_items .hover figure:hover img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.25; }
+  .thumb_items figcaption {
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+    color: #f2f2f2;
+    opacity: 0;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    transition: 0.3s, cubic-bezier(1, 0, 0, 1); }
+  .thumb_items .hover figure:hover figcaption {
+    bottom: 25px;
+    opacity: 1; }
 
 /* NAVIGATION */
-/* PARENT */
+/* parent */
 #nav_column {
   float: left;
   display: block;
@@ -143,7 +174,7 @@ ul {
   -ms-flex-line-pack: center;
   align-content: center; }
 
-/* CHILDREN */
+/* children */
 .nav_content {
   width: 100px;
   height: 100%;
@@ -152,7 +183,7 @@ ul {
   position: fixed;
   z-index: 999; }
 
-/* GRANDCHILDREN */
+/* grandchildren */
 .logo {
   cursor: crosshair;
   width: 65px;
@@ -176,6 +207,7 @@ ul {
   -ms-transform: translateX(-50%) scale(1.05);
   transform: translateX(-50%) scale(1.05); }
 
+/* Menu Links */
 .nav_items hr {
   margin-top: 82px;
   width: 20px;
@@ -261,7 +293,7 @@ ul {
     transform: translateX(-50%); } }
 
 /* ABOUT SECTION */
-/* PARENT */
+/* parent */
 #about {
   float: left;
   display: block;
@@ -280,13 +312,13 @@ ul {
   #about:last-child {
     margin-right: 0; }
 
-/* CHILDREN */
+/* children */
 .about_content {
   max-width: 600px;
   margin-right: 8%;
   margin-top: 50px; }
 
-/* GRANDCHILDREN */
+/* grandchildren */
 .myface {
   width: 300px;
   height: 300px;
@@ -348,19 +380,3 @@ ul {
     left: auto;
     right: 15px;
     bottom: 15px; } }
-
-body {
-  margin: 0;
-  padding: 0; }
-
-figure {
-  overflow: hidden; }
-
-.hover figure img {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0); }
-
-.hover figure:hover img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  opacity: 0.25; }
