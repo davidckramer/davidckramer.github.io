@@ -163,6 +163,9 @@ ul {
     opacity: 0;
     transform-origin: center;
     transition: .3s, $ease-in-out-expo;
+    width: 70%;
+    display: inline-block;
+    overflow: auto;
     }
 
   .hover figure:hover figcaption {
