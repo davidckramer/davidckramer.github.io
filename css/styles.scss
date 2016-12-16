@@ -37,7 +37,7 @@ a {
   color: black;
   font-family: 'Inknut Antiqua', Georgia, serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   text-decoration: none;
   cursor: crosshair;
@@ -53,8 +53,8 @@ a:hover{
 
 p {
   font-family: 'Anonymous Pro', monospace;
-  font-size: 12px;
-  line-height: 17px;
+  font-size: 14px;
+  line-height: 19px;
 }
 
 h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
@@ -70,11 +70,12 @@ h1 {
   text-shadow: 0 0 0;
 }
 
+
 h2 {
   font-family: 'Inknut Antiqua', Georgia, serif;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 27px;
   margin-bottom: 20px;
 }
 
@@ -349,7 +350,7 @@ ul {
   /* children */
 
 .about_content {
-  max-width: 600px;
+  max-width: 650px;
   margin-right: 8%;
   margin-top: 50px;
   }
