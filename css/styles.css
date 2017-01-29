@@ -23,8 +23,8 @@ html, body {
   min-width: 850px; }
 
 a {
-  color: black;
-  font-family: 'Inknut Antiqua', Georgia, serif;
+  color: #3059a8;
+  font-family: 'Anonymous Pro', monospace;
   font-weight: bold;
   font-size: 14px;
   line-height: 15px;
