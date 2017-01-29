@@ -38,7 +38,7 @@ a {
   font-family: 'Anonymous Pro', monospace;
   font-weight: bold;
   font-size: 14px;
-  line-height: 15px;
+  line-height: 19px;
   text-decoration: none;
   cursor: crosshair;
 }
@@ -89,90 +89,6 @@ h3 {
 
 ul {
   list-style: none;
-}
-
-
-
-/* INDEX PAGE */
-
-/* Thumbnail Styles*/
-
-.thumb_items {
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling:touch;
-  background-color: black;
-  background-size: cover;
-  position: fixed;
-  float: left;
-  display: inline-block;
-  z-index: 990;
-
-  /* grid responsiveness */
-
-  li{
-    @include span-columns (2);
-
-    @include media($tablet){
-      @include span-columns(3);
-    }
-
-    @include media($mobile){
-      @include span-columns(6);
-    }
-
-    display: inline-block;
-    white-space: nowrap;
-    padding: 0;
-    position: relative;
-    float: left;
-    }
-
-  a img {
-    width: 100%;
-    height: auto;
-    display: block;
-    z-index: 15;
-    }
-
-  /* image rollover state*/
-
-  figure {
-    overflow: hidden;
-    }
-
-  .hover figure img {
-  	-webkit-filter: grayscale(0);
-  	filter: grayscale(0);
-    }
-
-  .hover figure:hover img {
-  	-webkit-filter: grayscale(100%);
-  	filter: grayscale(100%);
-    opacity: 0.25;
-    }
-
-  /* image rollover state (caption)*/
-
-  figcaption {
-    position:absolute;
-    left: 25px;
-    bottom: 20px;
-    color: $light-grey;
-    opacity: 0;
-    transform-origin: center;
-    transition: .3s, $ease-in-out-expo;
-    width: 70%;
-    display: inline-block;
-    overflow: auto;
-    }
-
-  .hover figure:hover figcaption {
-    bottom: 25px;
-    opacity: 1;
-    }
 }
 
 /* NAVIGATION */
@@ -234,41 +150,6 @@ ul {
 .logo:hover {
   transform:translateX(-50%) scale(1.05);
   }
-
-/* Menu Links */
-
-.nav_items {
-
-  hr {
-    margin-top: 82px;
-    width: 20px;
-    border: 1px solid black;
-    }
-
-  a {
-    list-style: none;
-    font-family: 'Inknut Antiqua', Georgia, serif;
-    font-size: 12px;
-    letter-spacing: 1px;
-    line-height: 28px;
-    text-align: center;
-    }
-
-  a:hover {
-    color: $dk-green;
-    }
-
-  li{
-    text-align: center;
-    transform-origin: center;
-    transition: .1s, ease-in-out;
-    }
-
-  li:hover{
-    transform: rotate(-7deg);
-    }
-
-}
 
   /* NAVIGATION MEDIA QUERIES */
 
