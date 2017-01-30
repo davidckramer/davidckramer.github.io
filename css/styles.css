@@ -17,8 +17,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
-  min-width: 850px;
-  letter-spacing: normal; }
+  min-width: 850px; }
 
 html, body {
   min-width: 850px; }
@@ -30,8 +29,7 @@ a {
   font-size: 14px;
   line-height: 19px;
   text-decoration: none;
-  cursor: crosshair;
-  letter-spacing: normal; }
+  cursor: crosshair; }
 
 a:hover {
   color: #3059a8; }
@@ -43,25 +41,22 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   /*reset for mobile browsers */
-  font-weight: default;
-  letter-spacing: normal; }
+  font-weight: normal; }
 
 h1 {
   font-family: 'Inknut Antiqua', Georgia, serif;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 1.875em;
+  line-height: 1.4em;
   margin-bottom: 15px;
-  text-shadow: 0 0 0;
-  letter-spacing: normal; }
+  text-shadow: 0 0 0; }
 
 h2 {
   font-family: 'Inknut Antiqua', Georgia, serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 27px;
-  margin-bottom: 20px;
-  letter-spacing: normal; }
+  margin-bottom: 20px; }
 
 h3 {
   font-family: 'Inknut Antiqua', Georgia, serif;
