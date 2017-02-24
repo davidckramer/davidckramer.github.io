@@ -143,6 +143,41 @@ ul {
   -ms-transform: translateX(-50%) scale(1.05);
   transform: translateX(-50%) scale(1.05); }
 
+/* Menu Links */
+.nav_items hr {
+  margin-top: 82px;
+  width: 20px;
+  border: 1px solid black; }
+
+.nav_items a {
+  list-style: none;
+  font-family: 'Inknut Antiqua', Georgia, serif;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 14px;
+  text-align: center;
+  color: black; }
+
+.nav_items a:hover {
+  color: #009666; }
+
+.nav_items li {
+  text-align: center;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  transition: .1s, ease-in-out; }
+
+.nav_items li:hover {
+  -webkit-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  transform: rotate(-7deg); }
+
+.nav_items hr:hover {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none; }
+
 /* NAVIGATION MEDIA QUERIES */
 @media screen and (max-width: 775px) {
   #nav_column {
@@ -183,6 +218,17 @@ ul {
     height: 55px;
     z-index: 999;
     padding-top: 0px; }
+  .nav_items {
+    margin-left: 70px;
+    margin-top: 16px; }
+    .nav_items hr {
+      margin-top: 8px;
+      width: 20px;
+      border: 1px solid black; }
+    .nav_items li {
+      float: left;
+      margin-left: 15px;
+      display: block; }
   .logo {
     left: 40px;
     -webkit-transform: translateX(-50%);
