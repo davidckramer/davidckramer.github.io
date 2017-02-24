@@ -145,6 +145,39 @@ ul {
   z-index: 999;
   }
 
+.nav_items {
+
+  hr {
+    margin-top: 82px;
+    width: 20px;
+    border: 1px solid black;
+    }
+
+  a {
+    list-style: none;
+    font-family: 'Inknut Antiqua', Georgia, serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-align: center;
+    }
+
+  a:hover {
+    color: $dk-green;
+    }
+
+  li{
+    text-align: center;
+    transform-origin: center;
+    transition: .1s, ease-in-out;
+    }
+
+  li:hover{
+    transform: rotate(-7deg);
+    }
+
+  }
+
   /* grandchildren */
 
 .logo {
