@@ -35,7 +35,7 @@ html, body {
 
 a {
   color: $dk-blue;
-  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Space Mono', monospace;
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -52,9 +52,9 @@ a:hover{
 // TYPE STYLES
 
 p {
-  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Space Mono', monospace;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 23px;
 }
 
 h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
@@ -64,10 +64,10 @@ font-weight: normal;
 h1 {
   font-family: 'Inknut Antiqua', Georgia, serif;
   font-weight: 700;
-  font-size: 1.875em;
-  line-height: 1.4em;
+  font-size: 2.25em;
+  line-height: 1.25em;
   letter-spacing: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   text-shadow: 0 0 0;
 }
 
@@ -75,20 +75,20 @@ h1 {
 h2 {
   font-family: 'Inknut Antiqua', Georgia, serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 24px;
   letter-spacing: 0px;
-  line-height: 27px;
-  margin-bottom: 20px;
+  line-height: 32px;
+  margin-bottom: 30px;
 }
 
-h3 {
-  font-family: 'Inknut Antiqua', Georgia, serif;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 35px;
-  margin-bottom: 5px;
-  letter-spacing: normal;
-}
+// h3 {
+//   font-family: 'Inknut Antiqua', Georgia, serif;
+//   font-weight: 800;
+//   font-size: 25px;
+//   line-height: 35px;
+//   margin-bottom: 5px;
+//   letter-spacing: normal;
+// }
 
 @media screen and (max-width: 775px) {
 
@@ -111,7 +111,7 @@ ul {
   /* parent */
 
 #nav_column {
-  @include span-columns (2);
+  @include span-columns (3);
   height: 100%;
   margin-top: 15px;
   margin-left: 15px;
@@ -179,6 +179,7 @@ ul {
   a {
     list-style: none;
     font-family: 'Inknut Antiqua', Georgia, serif;
+    font-weight: 700;
     font-size: 12px;
     letter-spacing: 0px;
     line-height: 14px;
@@ -273,7 +274,7 @@ ul {
   /* parent */
 
 #about {
-  @include span-columns (4);
+  @include span-columns (3);
   height: 100%;
   padding-left: 8%;
   right: 0;
@@ -297,14 +298,15 @@ ul {
   /* grandchildren */
 
 .myface {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   margin-top: 75px;
   margin-bottom: 50px;
   }
 
 .work_experience {
-  padding-top: 50px;
+  margin-top: 70px;
+  margin-bottom: 20px;
   }
 
 .download_icon img {
@@ -353,5 +355,6 @@ ul {
     left: auto;
     right: 15px;
     bottom: 15px;
+
     }
 }
