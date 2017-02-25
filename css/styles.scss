@@ -178,7 +178,7 @@ ul {
 
   a {
     list-style: none;
-    font-family: 'Inknut Antiqua', Georgia, serif;
+    font-family: 'Space Mono', monospace;
     font-weight: 700;
     font-size: 12px;
     letter-spacing: 0px;
@@ -274,7 +274,7 @@ ul {
   /* parent */
 
 #about {
-  @include span-columns (3);
+  @include span-columns (4);
   height: 100%;
   padding-left: 8%;
   right: 0;
@@ -312,6 +312,42 @@ ul {
 .download_icon img {
   height: 35px;
   margin-top: 15px;
+  }
+
+.work_samples {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  display: block;
+  }
+
+.bb_gif {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 50px;
+  }
+
+.hc_lm {
+  width: 100%;
+  height: auto;
+  display: block;
+  }
+
+.logo_gif {
+  width: 100%;
+  height: auto;
+  display: block;
+  }
+.points_gif {
+  width: 100%;
+  height: auto;
+  display: block;
+  }
+
+.glass_g {
+  width: 100%;
+  height: auto;
+  display: block;
   margin-bottom: 50px;
   }
 
