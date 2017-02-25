@@ -111,7 +111,6 @@ ul {
   /* parent */
 
 #nav_column {
-  @include span-columns (3);
   height: 100%;
   margin-top: 15px;
   margin-left: 15px;
