@@ -288,8 +288,7 @@ ul {
 .bb_gif {
   width: 100%;
   height: auto;
-  display: block;
-  margin-bottom: 100px; }
+  display: block; }
 
 .hc_lm {
   width: 100%;
@@ -306,11 +305,11 @@ ul {
   height: auto;
   display: block; }
 
-.glass_g {
+.dk_sizz {
   width: 100%;
   height: auto;
   display: block;
-  margin-bottom: 50px; }
+  margin-bottom: 90px; }
 
 .legal {
   left: 15px;
