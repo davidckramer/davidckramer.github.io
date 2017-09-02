@@ -72,7 +72,8 @@ h3 {
 
 @media screen and (max-width: 775px) {
   h1 {
-    letter-spacing: -1px; }
+    letter-spacing: -1px;
+    font-size: 2.75em; }
   h2 {
     letter-spacing: -1px; } }
 
