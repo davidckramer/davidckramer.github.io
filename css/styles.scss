@@ -223,7 +223,7 @@ ul {
       }
       height: 75px;
       z-index: 999;
-      position: fixed;
+      position: static;
       margin-top: 0px;
       margin-left: 0px;
       background-color: white;
@@ -417,7 +417,6 @@ ul {
   float: left;
   left: 0;
   margin-left: 0;
-  padding-left: 8%;
   background-size: contain;
   position: absolute;
   float: right;
@@ -425,13 +424,14 @@ ul {
   }
 
   .about_content{
-    margin-top: 120px;
+    margin-top: 90px;
+    padding-left: 8%;
     }
 
   .legal {
     left: auto;
     right: 15px;
     bottom: 15px;
-
     }
+
 }
