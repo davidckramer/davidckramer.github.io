@@ -18,7 +18,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 // SASS COLOR VARIABLES
 
 $mid-grey: #808284;
-$light-grey: #f2f2f2;
+$light-grey: #ffffff;
 $dk-green: #009666;
 $dk-blue: #3059a8;
 
@@ -282,9 +282,10 @@ ul {
 #about {
   @include span-columns (5);
   height: 100%;
-  padding-left: 8%;
+  padding-left: 2%;
   right: 0;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   -webkit-overflow-scrolling:touch;
   background-color: $light-grey;
   background-size: cover;
@@ -298,7 +299,7 @@ ul {
 .about_content {
   max-width: 650px;
   margin-right: 8%;
-  margin-top: 100px;
+  margin-top: 20%;
   }
 
   /* grandchildren */
