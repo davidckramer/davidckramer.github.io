@@ -105,14 +105,36 @@ h3 {
 
 @media screen and (max-width: 775px) {
 
+  a {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
   h1 {
-    letter-spacing: -1px;
-    font-size: 2.75em;
+    letter-spacing: 0.5px;
+    font-size: 2.5em;
+    margin-bottom: 10px;
   }
 
 
   h2 {
-    letter-spacing: -1px;
+    letter-spacing: 0.5px;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+
+  h3 {
+    letter-spacing: 0.5px;
+    font-size: 1.5em;
+    margin-top: 35px;
+    margin-bottom: 10px;
+
+  }
+
+  p {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 
@@ -289,6 +311,7 @@ ul {
   @include span-columns (5);
   height: 100%;
   padding-left: 2%;
+  padding-right: 5%;
   right: 0;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -317,8 +340,8 @@ ul {
   }
 
 .work_experience {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 35px;
+  margin-bottom: 10px;
   }
 
 .download_icon img {
@@ -336,14 +359,14 @@ ul {
   transform:translateX(-50%) scale(1.1);
   }
 
-.work_samples {
-  margin-top: 50px;
+.Portfolio_samples {
+  // margin-top: 50px;
   display: block;
   }
 
 .work {
   margin-bottom: 20px;
-  max-width: 900px;
+  max-width: 1000px;
   display: block;
   }
 
@@ -360,7 +383,7 @@ ul {
   }
 
   .oscillate {
-    margin-top: 30px;
+    margin-top: 0px;
     width: 100%;
     height: auto;
     display: block;
